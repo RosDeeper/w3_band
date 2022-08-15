@@ -152,7 +152,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/w3_band/assets/img/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-slider {
@@ -169,7 +169,13 @@ html {
 #slider .text-heading {
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    text-shadow: 0 0 1px #000;
+}
+
+#slider .text-description {
+    font-size: 16px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content .content-section {
@@ -364,6 +370,7 @@ html {
     align-items: center;
     justify-content: center;
     display: none;
+    z-index: 2;
 }
 
 .modal.open {
